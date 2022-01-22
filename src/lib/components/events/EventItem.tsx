@@ -3,12 +3,12 @@ import {
   Popover,
   Typography,
   ButtonBase,
-  useTheme,
   IconButton,
   Button,
   Slide,
   Paper,
 } from "@mui/material";
+import { useTheme } from "@mui/styles";
 import { format } from "date-fns";
 import { ProcessedEvent } from "../../types";
 import { useAppState } from "../../hooks/useAppState";

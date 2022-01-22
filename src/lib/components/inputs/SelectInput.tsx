@@ -4,13 +4,13 @@ import {
   FormHelperText,
   MenuItem,
   Checkbox,
-  useTheme,
   Chip,
   Typography,
   CircularProgress,
   InputLabel,
   Select,
 } from "@mui/material";
+import { useTheme } from "@mui/styles";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export type SelectOption = {

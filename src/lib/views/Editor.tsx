@@ -6,9 +6,9 @@ import {
   DialogActions,
   Button,
   Grid,
-  useTheme,
   useMediaQuery,
 } from "@mui/material";
+import { useTheme } from "@mui/styles";
 import { addMinutes, differenceInMinutes } from "date-fns";
 import { EditorDatePicker } from "../components/inputs/DatePicker";
 import { EditorInput } from "../components/inputs/Input";

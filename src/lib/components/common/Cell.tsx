@@ -1,4 +1,5 @@
-import { alpha, Button, useTheme } from "@mui/material";
+import { alpha, Button } from "@mui/material";
+import { useTheme } from "@mui/styles";
 import { useAppState } from "../../hooks/useAppState";
 
 interface CellProps {
